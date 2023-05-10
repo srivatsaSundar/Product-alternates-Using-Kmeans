@@ -4,6 +4,10 @@ import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import MultiLabelBinarizer
 
+'''This function, named FindAlternateGroups, retrieves products data from an online store using its API, preprocesses the data by extracting relevant
+ features and performing clustering, and then returns a JSON string containing the product alternates organized by cluster. The function takes the store 
+ domain as input and returns the JSON string.'''
+
 def FindAlternateGroups(store_domain):
     products = []
     page = 1
