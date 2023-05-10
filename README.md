@@ -6,7 +6,7 @@ links belonging to that cluster. Finally, it outputs the dictionary as a JSON fi
 
 Here is an overview of the files in the repository:
 
-product_alternates.py: This is the main script that implements the product clustering logic.
+app.py: This is the main script that implements the product clustering logic.
 requirements.txt: This file lists the Python packages required by the script.
 README.md: This file contains information about the repository and how to use the script.
 
